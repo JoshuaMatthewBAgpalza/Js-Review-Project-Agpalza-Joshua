@@ -38,7 +38,7 @@ function addTodo(event) {
 function editTodo(index) {
     const updateTodo = prompt('Edit your todo:', todos[index]);
     if (updateTodo !== null) {
-        todos [index] = updateTodo.trim();
+        todos[index] = updateTodo.trim();
         renderTodos();
     }
 }
