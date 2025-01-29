@@ -28,7 +28,7 @@ function addTodo(event) {
     event.preventDefault(); // Prevent form Submission
     const newTodo = todoInput.value.trim();
     if (newTodo) {
-        todo.push(newTodo);
+        todos.push(newTodo);
         todoInput.value = ''; // Clear the input
         renderTodos();
     }
